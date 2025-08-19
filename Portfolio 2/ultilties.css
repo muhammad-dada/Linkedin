@@ -1,0 +1,90 @@
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.m-1 {
+    margin: 4px;
+}
+
+.p-1{
+        padding: 10px;
+}
+.rounded {
+    border-radius: 4px;
+}
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444; /* dark gray thumb */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* spacing effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666; /* lighter on hover */
+}
+
+/* Optional: horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+
+
+}
+.seekbar {
+  width: 75vw
+}
+
+.seekbar{
+  background: #1e1e1e; /* dark track */
+}
+
+.seekbar{
+  background: #444; /* dark gray thumb */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* spacing effect */
+}
+
+.seekbar:hover {
+  background: #666; /* lighter on hover */
+}
+
+/* Optional: horizontal scrollbar */
+.seekbar:horizontal {
+  height: 8px;
+}
+
+@media (max-width:1400px){
+  .seekbar{
+    width: 100vw;
+  }
+}
+
+
+
+
+
+
