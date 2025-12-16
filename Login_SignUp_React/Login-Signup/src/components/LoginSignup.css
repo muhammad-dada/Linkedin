@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 16px;
+  padding-bottom: 30px;
+  width: 600px;
+  background: #aaa7a7;
+  height: 90vh;
+  border-radius: 10px;
+}
+
+.container .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  gap: 4px;
+}
+
+.text {
+  color: #212020;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+    /* .underline {
+    width: 120px;
+    height: 6px;
+    border-radius: 6px;
+    background: #171616;
+    } */
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 520px;
+    background: linear-gradient(0.25turn,#6d6b6b,#636262);
+    margin: auto;
+    height: 70px;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #c6c1c1;
+    font-size: 19px;
+    height: 50px;
+    width: 300px;
+}
+
+.forgot-password{
+    padding-left: 30px;
+    color: #636262;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.forgot-password span{
+    color: #212020;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600; 
+}
+
+.submit-container{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.none{
+  display: none;
+}
+
+::placeholder{
+    color: #868383;
+}
+
+::selection {
+  color: #000000;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background: #212020;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.gray{
+  background: #636262;
+  color: #868383;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background: #212020;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
